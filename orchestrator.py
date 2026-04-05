@@ -84,10 +84,10 @@ class Orchestrator:
         self.model = model or os.getenv('QWEN_MODEL', 'qwen/qwen-2.5-coder-32b-instruct')
         
         # OpenRouter API configuration
-        self.api_key = os.getenv('OPENROUTER_API_KEY')
-        self.api_base_url = os.getenv('OPENROUTER_BASE_URL', 'https://openrouter.ai/api/v1')
-        self.site_url = os.getenv('OPENROUTER_SITE_URL', '')
-        self.app_name = os.getenv('OPENROUTER_APP_NAME', 'AI Employee FTE')
+        self.api_key = os.getenv('OPENROUTER_API_KEY', '').strip()
+        self.api_base_url = os.getenv('OPENROUTER_BASE_URL', 'https://openrouter.ai/api/v1').strip()
+        self.site_url = os.getenv('OPENROUTER_SITE_URL', '').strip()
+        self.app_name = os.getenv('OPENROUTER_APP_NAME', 'AI Employee FTE').strip()
         
         # Ensure all folders exist
         for folder in self.FOLDERS:
@@ -364,7 +364,9 @@ Always be helpful, thorough, and cautious with sensitive operations.'''
             return True
 
         except Exception as e:
-            self.logger.error(f'Failed to trigger Qwen Code: {e}')
+            self.logger.error(f'Failed to trigger Qwen Code: {type(e).__name__}: {e}')
+            import traceback
+            self.logger.error(f'Stack trace: {traceback.format_exc()}')
             return False
 
     def _execute_approved_action(self, approval_file: Path) -> bool:

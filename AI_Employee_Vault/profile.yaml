@@ -1,0 +1,220 @@
+# ===========================================
+# YOUR PROFESSIONAL PROFILE
+# For: AI Job Application Automation
+# ===========================================
+
+# --- Personal Information ---
+full_name: "Abdul Rafay"
+email: "rafay16031@gmail.com"
+phone: "+92 316 1163799"
+location: "Karachi, Pakistan"
+linkedin: "https://www.linkedin.com/in/your-profile"
+github: "https://github.com/your-username"
+portfolio: ""
+
+# --- Job Titles / Designations ---
+titles:
+  - "Frontend Developer"
+  - "AI Developer"
+  - "MERN Stack Developer"
+  - "Agentic AI Engineer"
+  - "AI Driven Development"
+  - "Full Stack Developer"
+  - "React Developer"
+  - "Python Developer"
+
+# --- Job Types ---
+job_types:
+  - "Internship"
+  - "Entry Level"
+  - "Junior"
+  - "Associate"
+  - "Remote"
+  - "Contract"
+  - "Full-time"
+
+# --- Skills ---
+skills:
+  # Frontend
+  - "React.js"
+  - "Next.js"
+  - "TypeScript"
+  - "JavaScript"
+  - "HTML/CSS"
+  - "Tailwind CSS"
+  - "Material UI"
+  
+  # Backend
+  - "Node.js"
+  - "Express.js"
+  - "Python"
+  - "MongoDB"
+  - "PostgreSQL"
+  - "REST API"
+  - "GraphQL"
+  
+  # AI/ML
+  - "Machine Learning"
+  - "Deep Learning"
+  - "NLP"
+  - "LLM"
+  - "Agentic AI"
+  - "LangChain"
+  - "AutoGen"
+  - "CrewAI"
+  - "TensorFlow"
+  - "PyTorch"
+  
+  # Tools
+  - "Git"
+  - "Docker"
+  - "AWS"
+  - "Playwright"
+  - "Obsidian"
+
+# --- Experience ---
+experience:
+  - title: "Frontend Engineer"
+    company: "Fiverr - Freelance"
+    duration: "Jan 2024 - Jan 2026"
+    description: |
+      - Developed responsive web applications using React, Next.js
+      - Integrated AI-powered features using LLM APIs
+      - Built automation tools using Playwright
+      - Worked with international clients on MERN stack projects
+
+# --- Education ---
+education:
+  - degree: "BS Computer Science"
+    institution: "Your University"
+    year: "2024"  # or expected graduation
+    gpa: ""  # Optional
+
+# --- Projects ---
+projects:
+  - name: "AI Employee FTE System"
+    description: "Autonomous AI agent for personal/business automation"
+    tech: "Python, Playwright, Obsidian, MCP"
+    link: "https://github.com/your-username/Personal-AI-Employee-FTEs"
+  
+  - name: "LinkedIn Automation System"
+    description: "Automated job application and posting system"
+    tech: "Python, Playwright, LinkedIn API"
+  
+  - name: "Add Your Project"
+    description: "Description here"
+    tech: "Technologies used"
+
+# --- Certifications ---
+certifications:
+  - name: "Add Certification"
+    issuer: "Coursera/Udemy/etc"
+    year: "2024"
+
+# --- Languages ---
+languages:
+  - "English (Professional)"
+  - "Urdu (Native)"
+
+# --- Availability ---
+available_from: "Immediately"
+
+# --- Job Locations (Priority Order) ---
+# Format: location_name:search_url_keyword
+locations:
+  # Priority 1: Local
+  - "Karachi, Pakistan"
+  
+  # Priority 2: Remote (High Priority - Paid Only)
+  - "United Arab Emirates (Remote)"
+  - "USA (Remote)"
+  - "United Kingdom (Remote)"
+  - "Japan (Remote)"
+  - "Australia (Remote)"
+  
+  # Priority 3: Other Remote
+  - "Remote"
+  - "Worldwide"
+  - "Global"
+
+# --- Location Keywords for Search ---
+location_keywords:
+  - "Karachi"
+  - "Pakistan"
+  - "UAE"
+  - "Dubai"
+  - "United States"
+  - "USA"
+  - "United Kingdom"
+  - "UK"
+  - "London"
+  - "Japan"
+  - "Tokyo"
+  - "Australia"
+  - "Sydney"
+  - "Remote"
+  - "Work from home"
+
+# --- Salary Requirements ---
+salary_requirements:
+  - "Paid"
+  - "Stipend"
+  - "Salary"
+  - "Compensation"
+  
+# Exclude unpaid
+exclude_unpaid: true  # Or specify range
+
+# --- Cover Letter Template ---
+cover_letter_template: |
+  Dear Hiring Manager,
+  
+  I am writing to express my interest in the {job_title} position at {company_name}.
+  
+  As a {primary_skill} developer with experience in {secondary_skills}, I am excited about the opportunity to contribute to your team. My background in {relevant_experience} aligns well with the requirements of this role.
+  
+  Key highlights of my qualifications:
+  - {highlight_1}
+  - {highlight_2}
+  - {highlight_3}
+  
+  I am particularly drawn to this opportunity because {company_reason}. I am confident that my skills in {key_skills} would make me a valuable addition to your team.
+  
+  I am available for an interview at your earliest convenience and can start immediately.
+  
+  Thank you for considering my application.
+  
+  Best regards,
+  Abdul Rafay
+  rafay16031@gmail.com
+  +92 316 1163799
+
+# --- Keywords for Job Search ---
+search_keywords:
+  - "Frontend Developer Internship"
+  - "AI Developer Internship"
+  - "MERN Stack Developer Internship"
+  - "React Developer Remote"
+  - "Python Developer Entry Level"
+  - "Machine Learning Internship"
+  - "Agentic AI"
+  - "LLM Developer"
+  - "Full Stack Developer Junior"
+  - "Software Engineer Internship"
+
+# --- Companies to Target ---
+target_companies:
+  - "Tech Companies"
+  - "Startups"
+  - "Remote-First Companies"
+  - "AI Companies"
+  - "Software Houses"
+
+# --- Exclude Keywords (Jobs to Skip) ---
+exclude_keywords:
+  - "Senior"
+  - "Lead"
+  - "Manager"
+  - "Director"
+  - "10+ years"
+  - "5+ years"

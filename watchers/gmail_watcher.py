@@ -107,7 +107,7 @@ class GmailWatcher(BaseWatcher):
                 flow = InstalledAppFlow.from_client_secrets_file(
                     self.credentials_path, self.SCOPES
                 )
-                creds = flow.run_local_server(port=0)
+                creds = flow.run_local_server(port=8081, open_browser=False)
             
             # Save token for future use
             self.token_path.write_text(creds.to_json())
