@@ -1,5 +1,5 @@
 ---
-generated: 2026-04-05T18:35:04.008094
+generated: 2026-04-05T18:37:06.055311
 overall_status: critical
 ---
 
@@ -10,11 +10,11 @@ overall_status: critical
 ## System Resources
 | Metric | Value | Status |
 |--------|-------|--------|
-| Disk Usage | 86.0% | ⚠️ |
-| Disk Free | 33.4 GB | ✅ |
-| Memory Usage | 92.0% | ⚠️ |
-| Memory Free | 0.6 GB | |
-| CPU Usage | 96.3% | ⚠️ |
+| Disk Usage | 85.8% | ⚠️ |
+| Disk Free | 33.7 GB | ✅ |
+| Memory Usage | 95.3% | ⚠️ |
+| Memory Free | 0.4 GB | |
+| CPU Usage | 69.5% | ✅ |
 
 ## Processes
 
@@ -29,8 +29,8 @@ overall_status: critical
 
 ## Alerts
 
-- ⚠️ WARNING: Disk usage at 86.0%
-- ⚠️ WARNING: Memory usage at 92.0%
+- ⚠️ WARNING: Disk usage at 85.8%
+- ⚠️ WARNING: Memory usage at 95.3%
 - ⚠️ CRITICAL: Process gmail_watcher exceeded max restarts
 - ⚠️ CRITICAL: Process whatsapp_watcher exceeded max restarts
 - ⚠️ CRITICAL: Process filesystem_watcher exceeded max restarts
